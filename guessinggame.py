@@ -7,10 +7,6 @@ import random
 #init vars
 continuePlay = "y"
 
-#Display heading
-def displayHeading():
-    print(f"Guess the Number!\n")
-
 def play(limitNum):
     tryCount = 0
     print(f"I'm thinking of a number from 1 to {limitNum}\n")
@@ -30,6 +26,7 @@ def play(limitNum):
 
 #entry point
 def main():
+    print(f"Guess the Number!\n")
     displayHeading()
     global continuePlay
 
