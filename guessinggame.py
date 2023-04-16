@@ -27,7 +27,6 @@ def play(limitNum):
 #entry point
 def main():
     print(f"Guess the Number!\n")
-    displayHeading()
     global continuePlay
 
     while continuePlay.lower() == "y":
