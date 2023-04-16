@@ -32,7 +32,8 @@ def main():
     while continuePlay.lower() == "y":
         limitNum = int(input("Enter the limit: "))
         play(limitNum)
-        continuePlay = input(f"Would you like to play again? (y/n): \n")
+        continuePlay = input(f"Would you like to play again? (y/n): ")
+        print()
     print("Bye!")
 
 if __name__ == "__main__":
